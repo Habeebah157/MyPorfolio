@@ -1,23 +1,23 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Habeebah Muse — Mobile & Web Developer",
+  author: "Habeebah Muse",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Software Engineer based in Atlanta, USA. I specialize full stack PERN stack.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/habeebaby.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
+    // { text: "Twitter", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/habeebahmuse/" },
+    { text: "Github", href: "https://github.com/Habeebah157" },
     { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "AI Progress Website", href: "https://machine-mindset.vercel.app/" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,73 +25,83 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Habeebah Muse",
+    specialty: "PERN Stack Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Software Engineer based in Atlanta, USA. I specialize full stack PERN stack.",
+    email: "omowumimuse@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
+      company: "Agunwami Enterprise Developers",
       position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      startDate: "May 2025",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Designing and building a full-stack PERN application, including PostgreSQL schema development to support 100+ daily users, and optimizing React performance to achieve a 35\% reduction in latency ",
+        "Crafting a highly responsive React user interface to boost mobile engagement, implementing seamless viewport transitions and ensuring optimal 48px+ touch targets for improved usability ",
+        "Collaborating closely with the design team to ensure the development of accessible and intuitive user interfaces and experiences",
+        "Enhanced user experience by integrating Google and Facebook authentication for faster logins and developing intuitive visualizations for user data"
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Salesforce",
+      position: "Software Engineering Intern",
+      startDate: "May 2024",
+      endDate: "August 2024",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Migrated 15+ Aura components to LWC, improving load speed by 40\% and reducing bundle size by 35\%",
+        "Built dashboard using 3+ APIs with hover features, reducing clicks by 25\%",
+        "Planned sprints in Quip, created 50+ tasks ensuring on-time delivery",
+        "Developed 10+ reusable components, reducing development time by 30\%",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Salesforce",
+      position: "Software Engineering Intern",
+      startDate: "Jun 2023",
+      endDate: "August 2023",
+      summary:[
+        "Developed secure city chooser app (PERN stack, JWT auth, swipe UI), cutting task time by 25%",
+        "Wrote 15+ user stories, 10+ Figma screens, managed 20+ GitHub PRs across 5+ branches", 
+        "Presented final project to 10+ engineers, praised for clarity and security"
+
+      ]
+        
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "Oyster",
+      summary: "Developed a real-time SMS notification system using Twilio, improving response times by 40% and ensuring delivery to 5,000+ users through a full-stack TypeScript/React/PostgreSQL/Docker stack",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/colorstackorg/oyster/pull/663",
+      image: "/twilliocontribution.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "Mariana Project",
+      summary: "Built a full-stack community platform with JWT auth and REST APIs using React, Node.js, and PostgreSQL, increasing user engagement by 30% and improving app responsiveness by 25%",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "https://github.com/Habeebah157/MarianaProjec",
+      image: "/mariana.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "langBot",
+      summary: "Built a Telegram bot using Flask, Telegram API, and async Python to deliver rare vocabulary words with definitions, pronunciation (text and audio), synonyms, antonyms, and examples, integrating external APIs and real-time webhook handling",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      linkSource: "https://github.com/Habeebah157/TelegramBot",
+      image: "/telegrambot.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I’m Habeebah Muse — a passionate Web Developer specializing in the PERN stack (PostgreSQL, Express, React, Node.js). I love building intuitive, real-time applications that solve real-world problems through technology. Lately, I’ve been diving into AI and Machine Learning, combining them with full-stack development to create smarter, more dynamic user experiences.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+I also enjoy crafting personalized solutions for my friends—like developing a Telegram bot to support a friend group learning English, and currently building a website to help a friend study Arabic. I’m always excited to collaborate and innovate, tailoring my work to meet unique needs.
+
+
     `,
-    image: "/alejandro-big.jpg",
+    image: "/proilepic.png",
   },
 };
 
